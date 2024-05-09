@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Style*/
+body {
+	font: 16px/28px	arial;
+	background-color: #eaeaea;
+	background-image: url(illustration-graphic-of-aesthetic-background-template-with-subtle-pastel-colors-and-nature-motifs-vector.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #333;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	background-color: aquamarine;
+}
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+	color: #333;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: #fb6565;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.content {
+	padding: 20px;
+	background-color: white;
+	background-image: url(abstract-white-color-canvas-wallpaper-textures-surface_74190-6385.jpg);
+}
+
+.content h2 {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px;
+}
+
+.hero {
+	height: 340px;
+	background-image: url(images.jpeg);
+	background-size: cover;
+	background-position: 0 -220px;
+	border-top: 5px solid #fb6565;
+	border-bottom: 5px solid lightskyblue;
+}
+
+.content .penulis {
+	font-size: 11px;
+	margin-top: -5px;
+}
+
+.content .penulis a{
+	color: #fb6565;
+	text-decoration: none;
+	padding: 3px;
+}
+
+.content .penulis a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero p {
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+.content h3 {
+	font-size: 18px;
+}
+
+.content p {
+	font-size: 14px;
+	text-align: justify;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.content .animasi {
+	font-weight: bold;
+	color: navy;
+	font-size: 20px;
+}
+
+.content .foto img {
+	margin: 10px;
+	width: 250px;
+}
+
+.content table {
+	font-size: 14px;
+	text-align: justify;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.footer {
+	background: #333;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	font-size: : 12px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #fb6565;
+	padding: 3px;
+}
+
+.footer a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
